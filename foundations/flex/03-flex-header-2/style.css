@@ -8,7 +8,14 @@ body {
   font-family: Besley, serif;
 }
 
+* {
+  outline: 1px red solid;
+}
+
 .header {
+  display: flex;
+  padding: 8px;
+  justify-content: space-between;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -30,6 +37,7 @@ body {
 }
 
 button {
+  margin: 10px;
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
@@ -41,8 +49,4 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
-}
-
-ul {
-  list-style-type: none;
 }
